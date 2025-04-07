@@ -26,5 +26,4 @@ public class UserController {
         Page<User> page = new Page<>(1, 10);
         return userMapper.selectPage(page, new QueryWrapper<>(user));
     }
-
 }
