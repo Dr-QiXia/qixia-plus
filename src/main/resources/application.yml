@@ -1,0 +1,12 @@
+spring:
+  application:
+  name: qixia-plus
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/qixia
+    username: root
+    password: 1234
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.qx.pojo
